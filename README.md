@@ -1,4 +1,4 @@
-# PHP-TEST
+# PHP-CHALLENGE
 
 This project contains a series of php scripts to resolve some challenges. Every challenge starts with the number 01 and 
 a brief description of the use case. You can find these scripts in the `/src` directory.
@@ -43,15 +43,17 @@ After use, remember to stop to service with:
 
 If you are using the local interpreter you can run the challengess with:
 
-    php ./src/01-prime-numbers.php
-    php ./src/02-ascii-array.php
-    php ./src/03-tv-series.php
+    php src/01-prime-numbers.php
+    php src/02-ascii-array.php
+    php src/03-tv-series.php
+    php src/04-test-ab.php
 
 If you are using docker: 
 
     docker-compose run php php src/01-prime-numbers.php
     docker-compose run php php src/02-ascii-array.php
     docker-compose run php php src/03-tv-series.php
+    docker-compose run php php src/04-test-ab.php
 
 ## Tests
 
